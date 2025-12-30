@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>少一点塑料 · 多一点未来</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="减少塑料制品使用，保护环境，从你我开始。">
+  <style>
+    :root {
+      --green: #2e8b57;
+      --light-green: #e6f4ee;
+      --blue: #4db6ac;
+      --yellow: #f9a825;
+      --dark: #2c2c2c;
+      --gray: #666;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+      color: var(--dark);
+      background: #f5f7f6;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(120deg, var(--green), var(--blue));
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--yellow);
+      color: #000;
+      padding: 14px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: var(--green);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 14px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,.06);
+    }
+
+    .card strong {
+      font-size: 2rem;
+      color: var(--green);
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: center;
+    }
+
+    .box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.06);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      padding-left: 26px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: var(--green);
+      font-weight: bold;
+    }
+
+    .cta {
+      background: var(--light-green);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #1f1f1f;
+      color: #bbb;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: var(--yellow);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🌍 少一点塑料 · 多一点未来</h1>
+  <p>
+    每一次减少塑料制品的选择<br>
+    都是在为地球留下一份希望
+  </p>
+  <a href="#action" class="btn">我能做什么</a>
+</header>
+
+<section>
+  <h2>塑料污染的真实现状</h2>
+  <div class="stats">
+    <div class="card">
+      <strong>9%</strong>
+      塑料被真正回收
+    </div>
+    <div class="card">
+      <strong>100万+</strong>
+      海洋动物每年死于塑料
+    </div>
+    <div class="card">
+      <strong>500年</strong>
+      塑料分解所需时间
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>塑料对世界的影响</h2>
+  <div class="two-col">
+    <div class="box">
+      <h3>🧍 对人类</h3>
+      <ul>
+        <li>微塑料进入血液和器官</li>
+        <li>影响内分泌系统</li>
+        <li>长期健康风险增加</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>🌊 对环境</h3>
+      <ul>
+        <li>海洋与河流污染</li>
+        <li>野生动物误食塑料</li>
+        <li>破坏生态平衡</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="action">
+  <h2>你今天就能做到的事</h2>
+  <div class="two-col">
+    <div class="box">
+      <h3>🏠 日常生活</h3>
+      <ul>
+        <li>自带购物袋和水杯</li>
+        <li>拒绝一次性餐具</li>
+        <li>选择可重复使用产品</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>🏪 商户与家庭</h3>
+      <ul>
+        <li>减少过度包装</li>
+        <li>使用玻璃或金属容器</li>
+        <li>鼓励无塑消费选择</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <h2>🌱 减塑不是牺牲，是选择</h2>
+  <p>从今天开始，为地球做一件小事</p>
+  <br>
+  <a href="#" class="btn">分享给更多人</a>
+</div>
+
+<footer>
+  © 2025 <span>Reduce Plastic</span> · Protect Our Earth  
+</footer>
+
+</body>
+</html>
