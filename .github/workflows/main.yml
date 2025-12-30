@@ -19,4 +19,4 @@ jobs:
           username: root
           password: ${{ secrets.VPS_PASSWORD }}
           source: "index.html"
-          target: "/var/www/html/" # 请确保这和你 Nginx 的 root 路径一致
+          target: "/www/wwwroot/rn.deepthink.dpdns.org/" # 请确保这和你 Nginx 的 root 路径一致
